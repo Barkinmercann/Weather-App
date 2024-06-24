@@ -184,5 +184,10 @@ forecast_label.pack(pady=10)
 desc_label = tk.Label(forecast_frame, font=('Helvetica', 24), bg='#2E2E2E', fg='#FFFFFF')
 desc_label.pack(pady=10)
 
-get_weather()
-root.mainloop()
+
+def main():
+    get_weather()
+    root.mainloop()
+
+if __name__ == '__main__':
+    main()
