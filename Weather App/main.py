@@ -188,7 +188,9 @@ desc_label.pack(pady=10)
 def main():
     get_weather()
     root.mainloop()
-    print("hotfix1")
+
+    #print("hotfix1")
+    print("feature2")
 
 
 if __name__ == '__main__':
