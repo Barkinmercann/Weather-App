@@ -93,7 +93,7 @@ def update_temp_label(temp_kelvin):
 def toggle_temp_mode():
     global temp_mode
     temp_mode = 'Fahrenheit' if temp_mode == 'Celsius' else 'Celsius'
-    toggle_temp_button.config(text=f"Switch to {temp_mode}", bg='#FF6347')
+    toggle_temp_button.config(text=f"Switch to {temp_mode}")
     get_weather()
 
 def update_forecast_labels(forecast_list):
